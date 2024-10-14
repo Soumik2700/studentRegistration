@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* w-[100%] border flex flex-col justify-evenly mt-4 */
+.heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px;
+    margin-top: 16px;
+}
+
+.createDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.dataSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 130px; */
+    font-size: 13px;
+
+}
+
+.headRow {
+    text-align: center;
+}
+
+.addedRow {
+    text-align: center;
+    border: 1px solid white;
+    height: 50px;
+
+}

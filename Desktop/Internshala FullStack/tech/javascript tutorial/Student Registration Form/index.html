@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/index.css">
+</head>
+
+<body>
+    <header class="flex justify-center items-center w-[100%] h-48">
+        <div>
+            <h1 class="uppercase">Student Regintration Form</h1>
+        </div>
+    </header>
+    <main class="flex w-[100%] justify-center">
+        <section class="flex flex-col justify-center items-center bg-green-400 w-[35%] gap-8">
+            <div class="flex flex-col mt-8 w-[60%]">
+                <label for="Student name">Student Name</label>
+                <input id="name" class="h-8" type="text" placeholder="Enter name">
+            </div>
+
+            <div class="flex flex-col w-[60%]">
+                <label for="Student Id">Student ID</label>
+                <input class="ID h-8" type="text" placeholder="Enter ID">
+            </div>
+
+            <div class="flex flex-col w-[60%]">
+                <label for="Student name">Class</label>
+                <input class="class h-8" type="text" placeholder="Enter class">
+            </div>
+
+            <div class="flex flex-col w-[60%]">
+                <label for="Student name">Roll No</label>
+                <input class="roll h-8" type="text" placeholder="Enter roll">
+            </div>
+
+            <div class="mb-8">
+                <button
+                    class="addButton rounded-lg px-4 py-2 bg-blue-500 text-blue-100 hover:bg-blue-600 duration-300">Add</button>
+            </div>
+        </section>
+        <section class="registeredArea overflow-y-scroll bg-slate-400 w-[50%] flex flex-col items-center">
+            <table class="w-[80%] studentTable">
+                <thead>
+                    <tr class="headRow">
+                        <th>Name</th>
+                        <th>ID</th>
+                        <th>Class</th>
+                        <th>Roll No</th>
+                    </tr>
+                </thead>
+                <!-- <tr class="addedRow">
+                    <td>Name</td>
+                    <td>Name</td>
+                    <td>Name</td>
+                    <td>Name</td>
+                    <td>
+                        <button class="editButton">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor" width="24" height="24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M11 4H6a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2v-5m-6-4l5-5m0 0l-5-5m5 5L9.5 16.5" />
+                            </svg>
+
+                        </button>
+                    </td>
+                    <td>
+                        <button class="deleteButton">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor" width="24" height="24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+
+                        </button>
+                    </td>
+                </tr> -->
+            </table>
+
+
+
+        </section>
+    </main>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
